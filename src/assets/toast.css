@@ -1,0 +1,16 @@
+#toasts-wrapper {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+#toasts-wrapper > div {
+  margin-top: 10px;
+}
+
+#toasts-wrapper .toast {
+  background-color: pink;
+  padding: 15px;
+  border-radius: 10px;
+}
